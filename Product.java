@@ -1,10 +1,12 @@
 public class Product {
 private String name;
 private float price;
+private int id;
 
-public Product() {
+public Product(int id) {
 	name = "Coca Cola";
 	price = 10;
+	this.id = id;
 }
 
 public String getName() {
